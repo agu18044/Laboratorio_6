@@ -159,7 +159,6 @@ ORG 100h    ; posicion para le codigo
  
  
 ;--------------------------------------;    
-;-----------configuracion--------------;
 	
 main:
     
@@ -171,7 +170,7 @@ main:
     call    timer2	;se llama a nuestro timer2
     
     
-;**************************
+
 ;*********Loop************
 
 loop:
@@ -187,7 +186,7 @@ loop:
     
     goto loop		; sigue en el loop
   
-;****************************
+
 ;*******Sub-Rutinas**********
 config_io:
     banksel ANSEL	; se escoge bank 3
